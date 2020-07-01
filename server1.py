@@ -97,7 +97,7 @@ def disp(name):
 
 if __name__ == "__main__":
     null = ""
-    SOCK.listen(5)  # Listens for 5 connections at max.
+    SOCK.listen(5)  # Listens for 7 connections at max.
     print("Chat Server has Started !!")
     print("Waiting for connections...")
     name = ""
